@@ -1,0 +1,381 @@
+/*  #EE8112; orange color */
+/*  #4DA1A8; blue color */
+
+html {
+    font-family: "Lexend", sans-serif;
+}
+
+body {
+    margin-left: 5em;
+    margin-right: 5em;
+
+}
+.social_media_icons img{
+    width: 32px;
+    margin-left: 8px;
+}
+.navbar {
+    background-color: white;
+    height: 80px;
+    margin-bottom: 20px;
+    border-bottom: solid black 2px;
+    padding: 0.5rem;
+}
+
+.logo-black {
+    cursor: pointer;
+    width: 55px;
+}
+.navbar-toggler {
+    border: none;
+    font-size: 1.25rem;
+}
+
+.navbar-toggler:focus, .btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.nav-link {
+    color: #666777;
+    font-weight: 400;
+    position: relative;
+}
+
+.nav-link:hover, .nav-link:active {
+    color: #000;
+}
+
+.colab-logo {
+    width: 100px;
+    overflow: hidden;
+}
+
+/*-----Aboutpage-start-----*/
+
+.introduction-h4 {
+    text-align: justify;
+    font-family: "Lexend", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.about-me {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.mail {
+    text-decoration: none;
+    color:#4DA1A8;
+}
+
+.mail:hover {
+    cursor: pointer;
+    transition: all 300ms ease;
+    transform: scale(1.2);
+    color: #EE8112;
+
+}
+
+.about-me-img {
+    max-height: 500px;
+}
+/*-----Aboutpage-end-----*/
+
+
+
+.hero-section {
+    width: 100%;
+    height: 100vh;
+}
+
+h1 {
+    font-family: "Lexend", sans-serif;
+    font-weight: 700;
+    font-size: 8rem;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Rock Salt";
+    font-size: 5rem;
+    margin: 0px;   
+}
+.intro-paragraph {
+    color: #4DA1A8;
+    text-align: justify;
+    margin: 0;
+}
+
+.graphic-design {
+    background-color: #4DA1A8;
+    height: 343px;
+    width: 50%;
+}
+.uiux-design {
+    background-color: #EE8112;
+    height: 343px;
+    width: 50%;
+}
+
+.work-cards {
+    margin: 30px 10px;
+    position: relative;
+}
+
+.work-cards img {
+    position: absolute;
+    left: 30%;
+    top: 15%;
+}
+
+.shrink {
+    transition: 1s ease;
+}
+
+.shrink:hover {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    width: 100%;
+    border-bottom: solid black 2px;
+}
+
+.web-dev {
+    margin: 10px 0;
+}
+.wp1 {
+    margin: 0 20px;
+    padding: 0;
+}
+.wp2 {
+    color: #EE8112;
+    margin: 0 20px;
+    padding: 0 0 10px 0;
+}
+
+.just-image {
+    margin: 0;
+    padding: 0;
+}
+
+.col-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    gap: 70px;
+    padding-top: 20px;
+}
+
+.col-logo div {
+    width: 20%;
+}
+ span {
+    color: #4DA1A8;
+    font-weight: 500;
+    font-size: 1.5rem
+ }
+
+.btn-default {
+    transition: all .5s ease;
+    color: #4DA1A8;
+    border: 3px solid #4DA1A8;
+    font-family: "Lexend", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    font-size: 16px;
+    background-color: transparent;
+    padding: 10px;
+    outline: none;
+    border-radius: 4px;
+    margin-top: 40px;
+  }
+
+  .btn-default:hover {
+    color: white;
+    background-color: #4DA1A8;
+  }
+
+.img-src {
+    margin: 50px 0;
+}
+
+.just-image {
+    width:  100%;
+    margin-right: 20%;
+}
+
+footer {
+    background-color: #000;
+    margin-top: 50px;
+}
+
+/*-----Graphicdesign_page_START-----*/
+
+.project-img-design {
+    background-color: #4DA1A8;
+    height: 340px;
+    display: grid;
+    place-items: center;
+}
+
+.project-img-ui-ux {
+    background-color: #EE8112;
+    height: 340px;
+    display: grid;
+    place-items: center;
+}
+
+.about-project {
+    margin-top: 35px;
+    padding-left: 50px;
+}
+
+.about-project .btn-default {
+  
+}
+
+.about-project h3 {
+    border: none;
+    font-size: 2rem;
+}
+
+.project-card {
+    margin-top: 50px;
+}
+
+.project-logo {
+    height: 170px;
+    max-width: 350px;
+
+}
+
+.hover-card {
+    transition: 1s ease;
+}
+
+.hover-card:hover {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+}
+
+.project-btn {
+    margin-top: 40px;
+}
+
+.project {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/*-----Graphicdesign_page_END-----*/
+
+/*-----Media-----*/
+
+@media (min-width: 991px) {
+    .nav-link::before {
+        content:  "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: #4DA1A8;
+        bottom: 0;
+        left: 0;
+        transform-origin: right;
+        transform: scaleX(0);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .nav-link:hover::before, .nav-link.active::before {
+        transform-origin: left;
+        transform: scaleX(1);
+    }
+
+}
+
+@media (max-width: 1054px) {
+    h2 {
+        display: none;
+    }
+    .intro-paragraph {
+        width: 100%;
+    }
+    .work-cards img {
+        position: absolute;
+        width: 200px;
+        left: 17%;
+        top: 20%;
+    }
+
+    .introduction-h4 {
+        text-align: justify;
+        font-family: "Lexend", sans-serif;
+        font-weight: 700;
+        font-size: 1rem;
+    }
+
+    .about-me p {
+        font-size: 14px;
+    }
+
+    .project-logo {
+        height: 130px;
+    }
+
+    .project {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    
+
+}
+
+@media (max-width: 700px) {
+    .work-cards img {
+        position: absolute;
+        width: 130px;
+        left: 25%;
+    }
+    h1 {
+        font-size: 4rem;
+    }
+    .work-cards {
+        height: 200px;
+    }
+    .introduction-h4 {
+        text-align: justify;
+        font-family: "Lexend", sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+    }
+    .mail {
+        font-size: 16px;
+    }
+    .about-me p {
+        font-size: 10px;
+    }
+
+    .project-logo {
+        height: 100px;
+    }
+
+    .project {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+}
