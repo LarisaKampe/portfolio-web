@@ -347,14 +347,10 @@ footer i {
 
 
     .introduction-h4 {
-        text-align: justify;
         font-family: "Lexend", sans-serif;
         font-weight: 700;
-        font-size: 1rem;
-    }
-
-    .about-me p {
-        font-size: 14px;
+        font-size: 24px;
+        margin-top: 30px;
     }
 
     .project-logo {
@@ -372,9 +368,28 @@ footer i {
     .work-cards img{
         width: 220px;
     }
-    
 
-}
+    .about-project {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about-me {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-me-img {
+        width: 80%;
+    }
+    
 
 @media (max-width: 700px) {
 
@@ -386,18 +401,20 @@ footer i {
         text-align: justify;
         font-family: "Lexend", sans-serif;
         font-weight: 700;
-        font-size: 14px;
+        font-size: 18px;
+        width: 100%;
     }
     .mail {
         font-size: 16px;
     }
     .about-me p {
-        font-size: 10px;
+        font-size: 14px;
     }
 
    
     body {
         margin: 0;
+        padding: 0;
     }
 
     .projects {
